@@ -14,7 +14,8 @@ light green: #A3C4BC
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #258ea6;
+  background-image: url('./components/assets/img3.jpg');
+background-image: no-repeat;
 }
 
 .form-wrapper {
@@ -123,9 +124,15 @@ input.error {
   color: #519e8a;
   background-color: #fff;
   border: 2px solid #519e8a;
+  display: inline-block;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -ms-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
 }
 
 .createAccount small {
-  color: #999;
+  color: rgb(240, 16, 9);
   font-weight: lighter;
 }
